@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <Button layoutX="86.0" layoutY="264.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="151.0" text="Vaciar" />
+      <Button layoutX="361.0" layoutY="264.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="151.0" text="Salir" />
+      <Button layoutX="243.0" layoutY="57.0" mnemonicParsing="false" text="Generar sustancias" />
+      <ImageView fitHeight="107.0" fitWidth="151.0" layoutX="94.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/10ml.JPG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="375.0" layoutY="90.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Pictures/50ml.JPG" />
+         </image>
+      </ImageView>
+      <Text layoutX="146.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10 ml" />
+      <Text layoutX="421.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50 ml" />
+   </children>
+</AnchorPane>
